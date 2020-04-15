@@ -1,0 +1,8 @@
+language: python
+python: "3.6"
+deploy:
+- provider: script
+  script: bash scripts/travis.sh
+  on:
+    branch: master
+  skip_cleanup: true
