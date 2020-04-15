@@ -6,3 +6,4 @@ deploy:
   on:
     branch: master
   skip_cleanup: true
+script: ls
