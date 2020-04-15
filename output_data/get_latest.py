@@ -15,4 +15,3 @@ if __name__ == '__main__':
     max_date_file = convert_back_to_str_file(max_date)
     print('Generating latest.csv...')
     copyfile(max_date_file, 'output_data/latest.csv')
-    return True
